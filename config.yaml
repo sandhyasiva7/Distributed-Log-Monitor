@@ -1,10 +1,10 @@
 services:
   - name: service1
-    log_path: logs/service1.log
-    error_threshold: 5
+    log_path: ./generated_logs/service1.log
+    error_threshold: 5.0
     alert_rate_limit_sec: 60
   - name: service2
-    log_path: logs/service2.log
+    log_path: ./logs/service2.log
     error_threshold: 3
     alert_rate_limit_sec: 60
 

@@ -38,7 +38,7 @@ def generate_log_lines(start_time,count,step):
 
 for service in services:
     service_name,start_time,count,step = service
-    with open(f"./logs/{service_name}.log",'w') as file:
+    with open(f"./generated_logs/{service_name}.log",'w') as file:
         generated_lines = generate_log_lines(start_time,count,step)
         for line in generated_lines:
             file.write(line+"\n")
