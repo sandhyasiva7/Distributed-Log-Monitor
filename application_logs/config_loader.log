@@ -1,3 +1,7 @@
 2025-09-04 15:10:12,123 [ERROR] error_threshold = 5.0 must be an int for service1
 2025-09-04 15:10:12,123 [INFO] ./generated_logs/service1.log exists,safe to proceed for this service1
 2025-09-04 15:10:12,123 [ERROR] ./logs/service2.log doesn't exists, for this service service2
+2025-09-05 14:14:44,807 [ERROR] error_threshold = 5.0 must be an int for service1
+2025-09-05 14:14:44,807 [INFO] ./logs/service2.log doesn't exists, for this service service2
+2025-09-05 14:15:26,726 [INFO] ./logs/service2.log doesn't exists, for this service service2
+2025-09-05 14:16:46,846 [INFO] ./logs/service2.log doesn't exists, for this service service2
