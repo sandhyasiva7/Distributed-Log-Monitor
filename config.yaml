@@ -10,3 +10,5 @@ services:
 
 poll_interval_sec: 5
 metrics_output: metrics.json
+deduplication:
+  window_seconds: 120 

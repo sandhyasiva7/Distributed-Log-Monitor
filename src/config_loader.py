@@ -45,14 +45,18 @@ def load_and_validate_config(file="./config.yaml"):
             logger.error(f"log_path is None for {service_name}")
             valid = False
         if not Path(log_path).exists():
-            logger.info(f"{log_path} doesn't exists, for this service {service_name}")
+            logger.error(f"{log_path} doesn't exists, for this service {service_name}")
             valid = False
         if valid:
             validation_passed_services.append(service)
-    return validation_passed_services
+
+    # pass the other configs too
+    dedup_configs = data.get('deduplication')
+
+    return validation_passed_services,dedup_configs
 
 # Testing
-#print(load_and_validate_config("./config.yaml"))
+print(load_and_validate_config("./config.yaml"))
 
 
         
