@@ -15,7 +15,7 @@ def parse_logs():
     validated_services,dedup_configs = load_and_validate_config()
     hash_to_timestamp_map = {}
     structured_line = {}
-    structured_log = []
+    structured_deduped_log = []
 
     for service in validated_services:
         with open(service['log_path']) as log_file:
@@ -31,8 +31,8 @@ def parse_logs():
                 if should_keep:
                     structured_line = {'timestamp': timestamp, 'service':service['name'],
                                 'serverity': serverity,'message': message }
-                    structured_log.append(structured_line)
+                    structured_deduped_log.append(structured_line)
                 hash_to_timestamp_map[message_hash] = iso_timestamp
-    return structured_log
+    return structured_deduped_log
 #testing
 print(parse_logs())
