@@ -1,100 +1,200 @@
-2023-09-11T00:00:30 ERROR User login successful
-2023-09-11T00:01:00 INFO Database connection lost
-2023-09-11T00:01:30 WARN Database connection lost
-2023-09-11T00:02:00 ERROR Fetching data from API
-2023-09-11T00:02:30 WARN User login successful
-2023-09-11T00:03:00 WARN Processed batch job
-2023-09-11T00:03:30 ERROR Cache miss
-2023-09-11T00:04:00 ERROR Disk space low
-2023-09-11T00:04:30 ERROR Request timed out
-2023-09-11T00:05:00 ERROR User login successful
-2023-09-11T00:05:30 ERROR Cache miss
-2023-09-11T00:06:00 ERROR Database connection lost
-2023-09-11T00:06:30 ERROR Cache miss
-2023-09-11T00:07:00 WARN Fetching data from API
-2023-09-11T00:07:30 INFO Cache miss
-2023-09-11T00:08:00 WARN Retrying request
-2023-09-11T00:08:30 WARN Disk space low
-2023-09-11T00:09:00 WARN Disk space low
-2023-09-11T00:09:30 WARN Database connection lost
-2023-09-11T00:10:00 WARN Database connection lost
+2023-09-11T00:00:06 WARN User login successful
+2023-09-11T00:00:12 ERROR Request timed out
+2023-09-11T00:00:18 INFO Request timed out
+2023-09-11T00:00:24 WARN Disk space low
+2023-09-11T00:00:30 INFO Cache miss
+2023-09-11T00:00:36 ERROR Request timed out
+2023-09-11T00:00:42 WARN Retrying request
+2023-09-11T00:00:48 ERROR Fetching data from API
+2023-09-11T00:00:54 INFO Retrying request
+2023-09-11T00:01:00 INFO Request timed out
+2023-09-11T00:01:06 WARN User login successful
+2023-09-11T00:01:12 WARN Cache miss
+2023-09-11T00:01:18 INFO Database connection lost
+2023-09-11T00:01:24 WARN Disk space low
+2023-09-11T00:01:30 ERROR Cache miss
+2023-09-11T00:01:36 INFO Fetching data from API
+2023-09-11T00:01:42 ERROR Fetching data from API
+2023-09-11T00:01:48 ERROR Fetching data from API
+2023-09-11T00:01:54 ERROR Cache miss
+2023-09-11T00:02:00 WARN Fetching data from API
+2023-09-11T00:02:06 ERROR Processed batch job
+2023-09-11T00:02:12 INFO Retrying request
+2023-09-11T00:02:18 INFO User login successful
+2023-09-11T00:02:24 INFO Fetching data from API
+2023-09-11T00:02:30 INFO User login successful
+2023-09-11T00:02:36 ERROR Processed batch job
+2023-09-11T00:02:42 INFO Disk space low
+2023-09-11T00:02:48 WARN User login successful
+2023-09-11T00:02:54 INFO Request timed out
+2023-09-11T00:03:00 ERROR Retrying request
+2023-09-11T00:03:06 ERROR Database connection lost
+2023-09-11T00:03:12 WARN Cache miss
+2023-09-11T00:03:18 WARN Processed batch job
+2023-09-11T00:03:24 WARN Request timed out
+2023-09-11T00:03:30 INFO Database connection lost
+2023-09-11T00:03:36 ERROR User login successful
+2023-09-11T00:03:42 WARN Disk space low
+2023-09-11T00:03:48 WARN Retrying request
+2023-09-11T00:03:54 ERROR Fetching data from API
+2023-09-11T00:04:00 ERROR Request timed out
+2023-09-11T00:04:06 WARN Disk space low
+2023-09-11T00:04:12 ERROR Retrying request
+2023-09-11T00:04:18 INFO Cache miss
+2023-09-11T00:04:24 WARN Request timed out
+2023-09-11T00:04:30 WARN Disk space low
+2023-09-11T00:04:36 WARN User login successful
+2023-09-11T00:04:42 WARN Database connection lost
+2023-09-11T00:04:48 INFO User login successful
+2023-09-11T00:04:54 INFO User login successful
+2023-09-11T00:05:00 ERROR Cache miss
+2023-09-11T00:05:06 WARN Cache miss
+2023-09-11T00:05:12 WARN Request timed out
+2023-09-11T00:05:18 WARN Retrying request
+2023-09-11T00:05:24 WARN Request timed out
+2023-09-11T00:05:30 WARN Fetching data from API
+2023-09-11T00:05:36 WARN Cache miss
+2023-09-11T00:05:42 INFO Fetching data from API
+2023-09-11T00:05:48 ERROR Request timed out
+2023-09-11T00:05:54 WARN Retrying request
+2023-09-11T00:06:00 ERROR User login successful
+2023-09-11T00:06:06 ERROR User login successful
+2023-09-11T00:06:12 INFO Database connection lost
+2023-09-11T00:06:18 ERROR Processed batch job
+2023-09-11T00:06:24 INFO Cache miss
+2023-09-11T00:06:30 WARN Request timed out
+2023-09-11T00:06:36 WARN Disk space low
+2023-09-11T00:06:42 INFO Disk space low
+2023-09-11T00:06:48 WARN User login successful
+2023-09-11T00:06:54 WARN Cache miss
+2023-09-11T00:07:00 INFO Retrying request
+2023-09-11T00:07:06 WARN Database connection lost
+2023-09-11T00:07:12 INFO User login successful
+2023-09-11T00:07:18 ERROR Disk space low
+2023-09-11T00:07:24 WARN Cache miss
+2023-09-11T00:07:30 ERROR Disk space low
+2023-09-11T00:07:36 INFO Request timed out
+2023-09-11T00:07:42 ERROR Fetching data from API
+2023-09-11T00:07:48 INFO Request timed out
+2023-09-11T00:07:54 ERROR Database connection lost
+2023-09-11T00:08:00 WARN Request timed out
+2023-09-11T00:08:06 INFO Cache miss
+2023-09-11T00:08:12 WARN Disk space low
+2023-09-11T00:08:18 INFO Retrying request
+2023-09-11T00:08:24 ERROR Cache miss
+2023-09-11T00:08:30 INFO User login successful
+2023-09-11T00:08:36 INFO Request timed out
+2023-09-11T00:08:42 WARN Cache miss
+2023-09-11T00:08:48 ERROR Processed batch job
+2023-09-11T00:08:54 WARN User login successful
+2023-09-11T00:09:00 ERROR Request timed out
+2023-09-11T00:09:06 INFO Retrying request
+2023-09-11T00:09:12 ERROR Request timed out
+2023-09-11T00:09:18 WARN Processed batch job
+2023-09-11T00:09:24 WARN Database connection lost
+2023-09-11T00:09:30 WARN Processed batch job
+2023-09-11T00:09:36 WARN Request timed out
+2023-09-11T00:09:42 ERROR Fetching data from API
+2023-09-11T00:09:48 INFO Processed batch job
+2023-09-11T00:09:54 INFO Fetching data from API
+2023-09-11T00:10:00 ERROR Disk space low
+2023-09-11T00:10:06 INFO Cache miss
+2023-09-11T00:10:12 INFO Retrying request
+2023-09-11T00:10:18 ERROR Database connection lost
+2023-09-11T00:10:24 ERROR Request timed out
 2023-09-11T00:10:30 ERROR Database connection lost
-2023-09-11T00:11:00 WARN Processed batch job
-2023-09-11T00:11:30 ERROR User login successful
-2023-09-11T00:12:00 INFO Database connection lost
-2023-09-11T00:12:30 ERROR Request timed out
-2023-09-11T00:13:00 INFO Fetching data from API
-2023-09-11T00:13:30 INFO Fetching data from API
-2023-09-11T00:14:00 ERROR User login successful
-2023-09-11T00:14:30 INFO Disk space low
-2023-09-11T00:15:00 ERROR Disk space low
-2023-09-11T00:15:30 ERROR Database connection lost
-2023-09-11T00:16:00 INFO Fetching data from API
-2023-09-11T00:16:30 INFO Retrying request
-2023-09-11T00:17:00 INFO Disk space low
-2023-09-11T00:17:30 WARN Cache miss
-2023-09-11T00:18:00 ERROR Cache miss
-2023-09-11T00:18:30 INFO User login successful
-2023-09-11T00:19:00 ERROR Processed batch job
-2023-09-11T00:19:30 INFO Database connection lost
-2023-09-11T00:20:00 INFO Request timed out
-2023-09-11T00:20:30 INFO Disk space low
-2023-09-11T00:21:00 ERROR Cache miss
-2023-09-11T00:21:30 INFO User login successful
-2023-09-11T00:22:00 ERROR Request timed out
-2023-09-11T00:22:30 INFO Database connection lost
-2023-09-11T00:23:00 WARN Retrying request
-2023-09-11T00:23:30 INFO Disk space low
-2023-09-11T00:24:00 INFO Retrying request
-2023-09-11T00:24:30 WARN Disk space low
-2023-09-11T00:25:00 WARN Retrying request
-2023-09-11T00:25:30 INFO Request timed out
-2023-09-11T00:26:00 WARN Database connection lost
-2023-09-11T00:26:30 ERROR Fetching data from API
-2023-09-11T00:27:00 INFO Retrying request
-2023-09-11T00:27:30 INFO Retrying request
-2023-09-11T00:28:00 ERROR Processed batch job
-2023-09-11T00:28:30 WARN Request timed out
-2023-09-11T00:29:00 INFO Database connection lost
-2023-09-11T00:29:30 INFO User login successful
-2023-09-11T00:30:00 WARN Database connection lost
-2023-09-11T00:30:30 WARN User login successful
-2023-09-11T00:31:00 WARN Processed batch job
-2023-09-11T00:31:30 INFO Retrying request
-2023-09-11T00:32:00 WARN Database connection lost
-2023-09-11T00:32:30 INFO Cache miss
-2023-09-11T00:33:00 INFO Fetching data from API
-2023-09-11T00:33:30 INFO Cache miss
-2023-09-11T00:34:00 WARN Database connection lost
-2023-09-11T00:34:30 INFO Retrying request
-2023-09-11T00:35:00 INFO User login successful
-2023-09-11T00:35:30 WARN Disk space low
-2023-09-11T00:36:00 WARN Processed batch job
-2023-09-11T00:36:30 ERROR Processed batch job
-2023-09-11T00:37:00 INFO Cache miss
-2023-09-11T00:37:30 WARN Request timed out
-2023-09-11T00:38:00 ERROR Database connection lost
-2023-09-11T00:38:30 ERROR Database connection lost
-2023-09-11T00:39:00 INFO Cache miss
-2023-09-11T00:39:30 INFO User login successful
-2023-09-11T00:40:00 WARN Database connection lost
-2023-09-11T00:40:30 WARN Cache miss
-2023-09-11T00:41:00 ERROR User login successful
-2023-09-11T00:41:30 INFO User login successful
-2023-09-11T00:42:00 ERROR Request timed out
-2023-09-11T00:42:30 INFO Database connection lost
-2023-09-11T00:43:00 WARN Fetching data from API
-2023-09-11T00:43:30 INFO Processed batch job
-2023-09-11T00:44:00 WARN Retrying request
-2023-09-11T00:44:30 ERROR Disk space low
-2023-09-11T00:45:00 WARN Processed batch job
-2023-09-11T00:45:30 INFO Request timed out
-2023-09-11T00:46:00 ERROR Cache miss
-2023-09-11T00:46:30 INFO Retrying request
-2023-09-11T00:47:00 INFO User login successful
-2023-09-11T00:47:30 INFO Request timed out
-2023-09-11T00:48:00 WARN Database connection lost
-2023-09-11T00:48:30 WARN Request timed out
-2023-09-11T00:49:00 INFO Database connection lost
-2023-09-11T00:49:30 ERROR User login successful
-2023-09-11T00:50:00 WARN Cache miss
+2023-09-11T00:10:36 WARN Database connection lost
+2023-09-11T00:10:42 WARN Disk space low
+2023-09-11T00:10:48 WARN Processed batch job
+2023-09-11T00:10:54 ERROR Retrying request
+2023-09-11T00:11:00 WARN Cache miss
+2023-09-11T00:11:06 INFO User login successful
+2023-09-11T00:11:12 WARN Database connection lost
+2023-09-11T00:11:18 WARN Disk space low
+2023-09-11T00:11:24 WARN Cache miss
+2023-09-11T00:11:30 INFO Database connection lost
+2023-09-11T00:11:36 WARN Disk space low
+2023-09-11T00:11:42 ERROR Request timed out
+2023-09-11T00:11:48 WARN User login successful
+2023-09-11T00:11:54 ERROR Cache miss
+2023-09-11T00:12:00 INFO Request timed out
+2023-09-11T00:12:06 ERROR User login successful
+2023-09-11T00:12:12 INFO Retrying request
+2023-09-11T00:12:18 INFO Database connection lost
+2023-09-11T00:12:24 INFO Database connection lost
+2023-09-11T00:12:30 ERROR Retrying request
+2023-09-11T00:12:36 ERROR Processed batch job
+2023-09-11T00:12:42 INFO User login successful
+2023-09-11T00:12:48 INFO Database connection lost
+2023-09-11T00:12:54 INFO Fetching data from API
+2023-09-11T00:13:00 WARN Retrying request
+2023-09-11T00:13:06 WARN Database connection lost
+2023-09-11T00:13:12 ERROR Disk space low
+2023-09-11T00:13:18 WARN Fetching data from API
+2023-09-11T00:13:24 WARN Processed batch job
+2023-09-11T00:13:30 INFO User login successful
+2023-09-11T00:13:36 WARN User login successful
+2023-09-11T00:13:42 INFO Processed batch job
+2023-09-11T00:13:48 INFO Request timed out
+2023-09-11T00:13:54 ERROR Processed batch job
+2023-09-11T00:14:00 INFO Database connection lost
+2023-09-11T00:14:06 WARN User login successful
+2023-09-11T00:14:12 ERROR Request timed out
+2023-09-11T00:14:18 ERROR Cache miss
+2023-09-11T00:14:24 INFO Fetching data from API
+2023-09-11T00:14:30 ERROR Request timed out
+2023-09-11T00:14:36 INFO User login successful
+2023-09-11T00:14:42 ERROR Retrying request
+2023-09-11T00:14:48 ERROR Database connection lost
+2023-09-11T00:14:54 INFO Request timed out
+2023-09-11T00:15:00 ERROR Request timed out
+2023-09-11T00:15:06 ERROR Request timed out
+2023-09-11T00:15:12 WARN Database connection lost
+2023-09-11T00:15:18 INFO Processed batch job
+2023-09-11T00:15:24 WARN Fetching data from API
+2023-09-11T00:15:30 INFO Request timed out
+2023-09-11T00:15:36 WARN Fetching data from API
+2023-09-11T00:15:42 ERROR Cache miss
+2023-09-11T00:15:48 ERROR Database connection lost
+2023-09-11T00:15:54 INFO User login successful
+2023-09-11T00:16:00 INFO Database connection lost
+2023-09-11T00:16:06 INFO Disk space low
+2023-09-11T00:16:12 INFO Retrying request
+2023-09-11T00:16:18 INFO Request timed out
+2023-09-11T00:16:24 ERROR Request timed out
+2023-09-11T00:16:30 WARN Cache miss
+2023-09-11T00:16:36 WARN Request timed out
+2023-09-11T00:16:42 WARN Disk space low
+2023-09-11T00:16:48 INFO Disk space low
+2023-09-11T00:16:54 WARN Fetching data from API
+2023-09-11T00:17:00 ERROR Disk space low
+2023-09-11T00:17:06 ERROR Database connection lost
+2023-09-11T00:17:12 WARN Fetching data from API
+2023-09-11T00:17:18 ERROR User login successful
+2023-09-11T00:17:24 INFO Disk space low
+2023-09-11T00:17:30 ERROR Disk space low
+2023-09-11T00:17:36 INFO Database connection lost
+2023-09-11T00:17:42 INFO Request timed out
+2023-09-11T00:17:48 WARN Database connection lost
+2023-09-11T00:17:54 ERROR Request timed out
+2023-09-11T00:18:00 INFO Database connection lost
+2023-09-11T00:18:06 WARN Disk space low
+2023-09-11T00:18:12 ERROR Request timed out
+2023-09-11T00:18:18 WARN Retrying request
+2023-09-11T00:18:24 WARN User login successful
+2023-09-11T00:18:30 INFO Fetching data from API
+2023-09-11T00:18:36 INFO Disk space low
+2023-09-11T00:18:42 ERROR Fetching data from API
+2023-09-11T00:18:48 INFO Retrying request
+2023-09-11T00:18:54 WARN Request timed out
+2023-09-11T00:19:00 WARN Disk space low
+2023-09-11T00:19:06 ERROR Database connection lost
+2023-09-11T00:19:12 WARN Retrying request
+2023-09-11T00:19:18 ERROR Retrying request
+2023-09-11T00:19:24 WARN Processed batch job
+2023-09-11T00:19:30 ERROR Retrying request
+2023-09-11T00:19:36 ERROR Retrying request
+2023-09-11T00:19:42 INFO Processed batch job
+2023-09-11T00:19:48 WARN Fetching data from API
+2023-09-11T00:19:54 INFO Request timed out
+2023-09-11T00:20:00 ERROR Processed batch job

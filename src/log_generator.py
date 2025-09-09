@@ -9,7 +9,7 @@ def log_generator():
     # add the service name, datetime in MMDDYYYYHH , count of loglines, step
     # NOTE: You can add step in decimel to increment per seconds, default is minutes,
     #  Eg: 0.5 step generates in step of 30 seconds
-    services = [('service1','1109202300',100,0.5), ('service2','1109202300',25,2)]
+    services = [('service1','1109202300',200,0.1), ('service2','1109202300',250,0.2)]
     log_levels = ['INFO','WARN','ERROR']
 
     log_messages = [
@@ -42,4 +42,5 @@ def log_generator():
             generated_lines = generate_log_lines(start_time,count,step)
             for line in generated_lines:
                 file.write(line+"\n")
+
 

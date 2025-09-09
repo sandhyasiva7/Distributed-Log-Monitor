@@ -5,7 +5,7 @@ Validates fields (error thresholds, log paths).
 
 Return the services only with valid fields
 '''
-import yaml,logging
+import yaml,logging,json
 from pathlib import Path
 # basic setup for logging
 logging.basicConfig(filename='./application_logs/config_loader.log',
@@ -14,6 +14,8 @@ logging.basicConfig(filename='./application_logs/config_loader.log',
 logger = logging.getLogger(__name__)
 
 validation_passed_services = []
+
+validated_config = {}
 
 def load_and_validate_config(file="./config.yaml"):
     try:
@@ -52,11 +54,12 @@ def load_and_validate_config(file="./config.yaml"):
 
     # pass the other configs too
     dedup_configs = data.get('deduplication')
+    pooling_interval = data.get('poll_interval_sec')
 
-    return validation_passed_services,dedup_configs
+    return validation_passed_services,dedup_configs,pooling_interval
 
 # Testing
-print(load_and_validate_config("./config.yaml"))
+#print(load_and_validate_config("./config.yaml"))
 
 
         

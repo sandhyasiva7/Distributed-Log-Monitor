@@ -12,7 +12,7 @@ from config_loader import load_and_validate_config
 from datetime import datetime,timedelta
 
 def parse_logs():
-    validated_services,dedup_configs = load_and_validate_config()
+    validated_services,dedup_configs ,_= load_and_validate_config()
     hash_to_timestamp_map = {}
     structured_line = {}
     structured_deduped_log = []
@@ -20,7 +20,7 @@ def parse_logs():
     for service in validated_services:
         with open(service['log_path']) as log_file:
             for line in log_file:
-                timestamp,serverity,message = line.split(" ",2)
+                timestamp,severity,message = line.split(" ",2)
                 iso_timestamp = datetime.fromisoformat(timestamp)
                 message_hash = hash(message)
                 should_keep = False         
@@ -30,9 +30,10 @@ def parse_logs():
                         should_keep = True
                 if should_keep:
                     structured_line = {'timestamp': timestamp, 'service':service['name'],
-                                'serverity': serverity,'message': message }
+                                'severity': severity,'message': message }
                     structured_deduped_log.append(structured_line)
                 hash_to_timestamp_map[message_hash] = iso_timestamp
     return structured_deduped_log
+
 #testing
-print(parse_logs())
+#print(parse_logs())

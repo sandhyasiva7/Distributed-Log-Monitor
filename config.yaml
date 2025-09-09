@@ -4,11 +4,15 @@ services:
     error_threshold: 5
     alert_rate_limit_sec: 60
   - name: service2
-    log_path: ./logs/service2.log
+    log_path: ./generated_logs/service2.log
     error_threshold: 3
     alert_rate_limit_sec: 60
+  - name: service3
+    log_path: ./logs/service3.log
+    error_threshold: 15
+    alert_rate_limit_sec: 60
 
-poll_interval_sec: 5
+poll_interval_sec: 300
 metrics_output: metrics.json
 deduplication:
   window_seconds: 120 
