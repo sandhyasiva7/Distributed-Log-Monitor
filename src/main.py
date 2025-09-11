@@ -12,6 +12,13 @@ from log_generator import log_generator
 from log_parser import parse_logs
 from aggregator import aggregate
 from config_loader import load_and_validate_config
+from alert_manager import manage_alert
+import json,datetime
+
+def default_serializer(obj):
+    if isinstance(obj,datetime.datetime):
+        return obj.strftime("%Y-%m-%d %H:%M:%S")
+    raise TypeError("Type not serliarizable")
 
 
 def main():
@@ -23,7 +30,12 @@ def main():
     # and also applies any deduplication logic
     strucuted_deduped_log = parse_logs()
 
-    aggregate(strucuted_deduped_log,polling_interval)
+    aggregated_metrics = aggregate(strucuted_deduped_log,polling_interval)
 
+    with open("./application_logs/metrics.json", "w") as f:
+        json.dump(aggregated_metrics, f, indent=2, default=default_serializer)
+
+    manage_alert(aggregated_metrics)
+    
 if __name__ == '__main__':
     main()

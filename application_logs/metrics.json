@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-09-11 09:46:25",
+  "polling_interval_used": 300,
+  "service1": {
+    "intervals": [
+      {
+        "start_time": "2023-09-11 00:00:06",
+        "total_log_lines": 10,
+        "total_errors": 3
+      },
+      {
+        "start_time": "2023-09-11 00:05:24",
+        "total_log_lines": 4,
+        "total_errors": 3
+      },
+      {
+        "start_time": "2023-09-11 00:10:36",
+        "total_log_lines": 3,
+        "total_errors": 1
+      },
+      {
+        "start_time": "2023-09-11 00:18:06",
+        "total_log_lines": 24,
+        "total_errors": 10
+      }
+    ]
+  },
+  "service2": {
+    "intervals": [
+      {
+        "start_time": "2023-09-11 00:03:24",
+        "total_log_lines": 4,
+        "total_errors": 3
+      },
+      {
+        "start_time": "2023-09-11 00:09:24",
+        "total_log_lines": 6,
+        "total_errors": 0
+      },
+      {
+        "start_time": "2023-09-11 00:14:24",
+        "total_log_lines": 8,
+        "total_errors": 0
+      },
+      {
+        "start_time": "2023-09-11 00:19:36",
+        "total_log_lines": 9,
+        "total_errors": 5
+      },
+      {
+        "start_time": "2023-09-11 00:25:36",
+        "total_log_lines": 7,
+        "total_errors": 0
+      },
+      {
+        "start_time": "2023-09-11 00:31:36",
+        "total_log_lines": 6,
+        "total_errors": 1
+      },
+      {
+        "start_time": "2023-09-11 00:37:36",
+        "total_log_lines": 8,
+        "total_errors": 5
+      },
+      {
+        "start_time": "2023-09-11 00:43:00",
+        "total_log_lines": 9,
+        "total_errors": 4
+      },
+      {
+        "start_time": "2023-09-11 00:48:24",
+        "total_log_lines": 120,
+        "total_errors": 36
+      }
+    ]
+  }
+}

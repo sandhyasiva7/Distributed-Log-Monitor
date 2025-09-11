@@ -10,6 +10,8 @@ from datetime import datetime,timedelta
 
 def aggregate(structed_deduped_logs,polling_interval):
     metrics = {}
+    metrics['timestamp'] = datetime.now()
+    metrics['polling_interval_used'] = polling_interval
     for log in structed_deduped_logs:
         service_name = log['service']    
         time_stamp = datetime.fromisoformat(log['timestamp'])
@@ -36,11 +38,14 @@ def aggregate(structed_deduped_logs,polling_interval):
             }
 
     for service_name in metrics:
+        if service_name in ("timestamp", "polling_interval_used"):
+            continue
         current_interval = metrics[service_name]['current_interval']
         if current_interval['total_log_lines'] > 0:
             metrics[service_name]['intervals'].append(current_interval.copy())
         # Remove current_interval from final output since it's now in intervals
         del metrics[service_name]['current_interval']
+
     return metrics
 
 
@@ -63,10 +68,17 @@ sample_input = [
                        {'timestamp': '2023-09-11T00:49:48', 'service': 'service2', 'severity': 'ERROR', 'message': 'Fetching data from API\n'}
 ]
 
+
+
 result = aggregate(sample_input,300)
+print(result)
+
+'''
 for service, data in result.items():
     print(f"\n{service}:")
     print(f"  Number of intervals: {len(data['intervals'])}")
     for i, interval in enumerate(data['intervals']):
         print(f"  Interval {i+1}: Start={interval['start_time']}, "
               f"Logs={interval['total_log_lines']}, Errors={interval['total_errors']}")
+'''
+

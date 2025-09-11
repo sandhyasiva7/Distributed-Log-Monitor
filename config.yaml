@@ -1,16 +1,16 @@
 services:
   - name: service1
     log_path: ./generated_logs/service1.log
-    error_threshold: 5
-    alert_rate_limit_sec: 60
+    error_threshold: 2
+    alert_rate_limit_sec: 600
   - name: service2
     log_path: ./generated_logs/service2.log
     error_threshold: 3
-    alert_rate_limit_sec: 60
+    alert_rate_limit_sec: 600
   - name: service3
     log_path: ./logs/service3.log
     error_threshold: 15
-    alert_rate_limit_sec: 60
+    alert_rate_limit_sec: 600
 
 poll_interval_sec: 300
 metrics_output: metrics.json
